@@ -3,23 +3,33 @@ Data loading component based on Apache Spark. The Ethereal Spark provides a scal
 
 ## Sprint backlog
 
-### Sprint 1:
+###  Sprint 1
 
-- Implement user registration and management functionality (5 points)
-- Integrate with OAuth 2.0 and OpenID Connect for user authentication and authorization (8 points)
-- Implement Single Sign-On (SSO) functionality (5 points)
-- Write unit tests for user management and authentication (2 points)
+- Set up a basic Apache Spark cluster with one worker node (3 points)
+- Write a Spark job to extract data from a CSV file (5 points)
+- Write a Spark job to transform data and aggregate statistics (8 points)
+- Write unit tests for Spark jobs (2 points)
 
-### Sprint 2:
+###  Sprint 2
 
-- Add Multi-Factor Authentication (MFA) support (8 points)
-- Implement token revocation and refresh functionality (5 points)
-- Write integration tests for OAuth 2.0 and OpenID Connect integration (3 points)
+- Improve Spark job performance by optimizing data caching and partitioning (8 points)
+- Write Spark jobs to join and merge multiple datasets (5 points)
+- Implement dynamic schema inference for data extraction (3 points)
+- Write integration tests for Spark jobs (3 points)
 - Refactor code to improve readability and maintainability (5 points)
 
-### Sprint 3:
+###  Sprint 3
 
-- Implement Role-Based Access Control (RBAC) functionality (8 points)
-- Add support for password policies and password strength validation (5 points)
-- Write integration tests for SSO and MFA (3 points)
-- Refactor code to improve performance and scalability (5 points)
+- Implement Spark Streaming for real-time data processing (8 points)
+- Write Spark jobs to analyze data trends over time (5 points)
+- Add support for data ingestion from external sources (e.g., Kafka, Flume) (5 points)
+- Write integration tests for Spark Streaming (3 points)
+- Refactor code to improve readability and maintainability (5 points)
+
+###  Sprint 4 
+
+- Implement machine learning algorithms for data analysis (8 points)
+- Write Spark jobs to perform anomaly detection and predictive modeling (5 points)
+- Add support for data visualization and reporting (3 points)
+- Write integration tests for machine learning algorithms (3 points)
+- Refactor code to improve readability and maintainability (5 points)
