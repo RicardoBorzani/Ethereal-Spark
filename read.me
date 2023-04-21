@@ -1,0 +1,44 @@
+Pull Request #75: Ethereal-Spark-patch-2C Implement dynamic schema inference for data extraction
+
+Description
+ - This pull request implements dynamic schema inference for data extraction in Apache Spark. Dynamic schema inference allows Spark to automatically infer the schema of data sources at runtime, without requiring the user to manually specify the schema beforehand. This is useful when working with data sources that may have varying or evolving schema over time.
+
+The following tasks were performed in this pull request:
+
+1: Researched and understood dynamic schema inference in Apache Spark.
+2: Determined the data sources that require dynamic schema inference.
+3: Wrote a Spark job to dynamically infer the schema of the data sources.
+4: Tested the dynamic schema inference functionality on various data sources.
+5: Handled any errors or inconsistencies that may arise from dynamic schema inference.
+6: Implemented a mechanism to handle schema evolution and changes in data sources.
+7: Wrote unit tests to validate the dynamic schema inference functionality.
+8: Documented the dynamic schema inference functionality for future reference.
+9: Refactored code to improve readability and maintainability.
+
+Tasks
+1. Research and understand dynamic schema inference in Apache Spark.
+Dynamic schema inference is a feature in Apache Spark that allows Spark to automatically infer the schema of data sources at runtime, without requiring the user to manually specify the schema beforehand. This is useful when working with data sources that may have varying or evolving schema over time.
+
+2. Determine the data sources that require dynamic schema inference.
+Identified the data sources that require dynamic schema inference, such as CSV files, JSON files, Parquet files, etc.
+
+3. Write a Spark job to dynamically infer the schema of the data sources.
+Implemented a Spark job that reads data from the identified sources and dynamically infers their schema at runtime. The job uses Spark's built-in schema inference functionality to automatically detect the data types and structures of each column in the input data.
+
+4. Test the dynamic schema inference functionality on various data sources.
+Tested the dynamic schema inference functionality on various data sources to ensure that the schema is correctly inferred for each source. Used different types of data, such as data with missing or malformed values, to ensure that the schema inference is robust and handles errors gracefully.
+
+5. Handle any errors or inconsistencies that may arise from dynamic schema inference.
+Implemented error handling mechanisms to handle any errors or inconsistencies that may arise from dynamic schema inference. This includes handling missing or malformed data, conflicting data types, and other issues that may affect the schema inference process.
+
+6. Implement a mechanism to handle schema evolution and changes in data sources.
+Implemented a mechanism to handle schema evolution and changes in data sources. This mechanism ensures that Spark can dynamically adapt to changes in the schema of the input data, without requiring manual intervention or configuration changes.
+
+7. Write unit tests to validate the dynamic schema inference functionality.
+Wrote a suite of unit tests to validate the dynamic schema inference functionality. The tests cover different scenarios and edge cases, such as missing or malformed data, conflicting data types, and changes in schema.
+
+8. Document the dynamic schema inference functionality for future reference.
+Documented the dynamic schema inference functionality for future reference. This includes documenting the input data sources that support dynamic schema inference, the limitations and tradeoffs of this feature, and how to use and configure it in Spark applications.
+
+9. Refactor code to improve readability and maintainability.
+Refactored the code to improve readability and maintainability. This includes removing redundant or unnecessary code, improving code structure and organization, and adding comments and documentation to clarify the code's purpose and functionality.
